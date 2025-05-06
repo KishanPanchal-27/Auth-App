@@ -42,6 +42,7 @@ export default function CustomerRegister() {
 
       if (response.data.success) {
         alert("Customer registration successful!");
+        navigate('/');
         // navigate("/customer-login"); // Redirect to customer login
       }
     } catch (error) {
